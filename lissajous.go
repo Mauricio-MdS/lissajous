@@ -11,11 +11,11 @@ import (
 	"os"
 )
 
-var palette = []color.Color{color.White, color.Black}
+var palette = []color.Color{color.Black, color.RGBA{0x00, 0x99, 0x00, 0xff}}
 
 const (
-    whiteIndex = 0 // first color in palette
-    blackIndex = 1 // next color in palette
+    blackIndex = 0 // first color in palette
+    greenIndex = 1 // next color in palette
 )
 
 func main() {
